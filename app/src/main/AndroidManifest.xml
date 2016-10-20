@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hssports.gate">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.HomeActivity" />
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity01"
+            android:label="@string/title_activity_profile01"
+            android:parentActivityName=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.RegisterActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity02"
+            android:label="@string/title_activity_profile02"
+            android:parentActivityName=".ProfileActivity01"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.ProfileActivity01" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity03"
+            android:label="@string/title_activity_profile03"
+            android:parentActivityName=".ProfileActivity02"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.ProfileActivity02" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity04"
+            android:label="@string/title_activity_profile04"
+            android:parentActivityName=".ProfileActivity03"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.ProfileActivity03" />
+
+        </activity>
+
+
+        <activity
+            android:name="com.example.hssports.gate.UserMainActivity"
+            android:label="Home"
+            android:parentActivityName=".LoginActivity"
+           >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.LoginActivity" />
+
+        </activity>
+
+        <activity
+            android:name="com.example.hssports.gate.settings"
+            android:label="Settings"
+            android:parentActivityName=".UserMainActivity"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hssports.gate.UserMainActivity"
+                />
+
+        </activity>
+    </application>
+
+</manifest>

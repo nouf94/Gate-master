@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="interests">
+        <item>Astrology</item>
+        <item>Basketball</item>
+        <item>Board Games</item>
+        <item>Bowling</item>
+        <item>Cooking</item>
+        <item>Calligraphy</item>
+        <item>Camping</item>
+        <item>Chess</item>
+        <item>Child Care</item>
+        <item>Cinema</item>
+        <item>Crafts</item>
+        <item>Dancing</item>
+        <item>Design</item>
+        <item>Drawing</item>
+        <item>Fashion</item>
+        <item>Fishing</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Weight Training</item>
+        <item>Hiking</item>
+        <item>Horse Riding</item>
+        <item>Skating</item>
+        <item>Music</item>
+        <item>Meditation</item>
+        <item>Modelling</item>
+        <item>Motorbikes</item>
+        <item>Origami</item>
+        <item>Painting</item>
+        <item>Photography</item>
+        <item>Reading</item>
+        <item>Research</item>
+        <item>Jogging</item>
+        <item>Singing</item>
+        <item>Stamp collecting</item>
+        <item>Surfing the web</item>
+        <item>Swimming</item>
+        <item>Travelling</item>
+        <item>Video Games</item>
+        <item>Movies</item>
+        <item>Writing</item>
+        <item>Walking</item>
+        <item>Yoga</item>
+    </string-array>
+
+</resources>

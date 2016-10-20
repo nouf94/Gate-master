@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="education">
+        <item>Accounting</item>
+        <item>Agriculture</item>
+        <item>Architecture</item>
+        <item>Arts</item>
+        <item>Astronomy</item>
+        <item>Biology</item>
+        <item>Business</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civil Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Computer Science</item>
+        <item>Dentistry</item>
+        <item>Earth Sciences</item>
+        <item>Economics</item>
+        <item>Electrical Engineering</item>
+        <item>English Language and Literature</item>
+        <item>Finance</item>
+        <item>Foreign Languages,Literatures, and Linguistics</item>
+        <item>Geography</item>
+        <item>Health Administration</item>
+        <item>Health and Clinical Sciences</item>
+        <item>History</item>
+        <item>Information Science</item>
+        <item>Information Technology</item>
+        <item>Journalism</item>
+        <item>Law</item>
+        <item>Library Science</item>
+        <item>Management</item>
+        <item>Management Information Systems</item>
+        <item>Marketing</item>
+        <item>Mathematics</item>
+        <item>Mechanical Engineering</item>
+        <item>Medicine</item>
+        <item>Nursing</item>
+        <item>Optometry</item>
+        <item>Pharmacy</item>
+        <item>Physics</item>
+        <item>Psychology</item>
+        <item>Public Administration</item>
+        <item>Statistics</item>
+        <item>Social Sciences</item>
+        <item>Software Engineering</item>
+        <item>Veterinary Medicine</item>
+        <item>Visual and Performing Arts</item>
+    </string-array>
+
+</resources>

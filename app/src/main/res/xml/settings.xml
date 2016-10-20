@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <PreferenceCategory
+    android:title="Account">
+        <SwitchPreference
+            android:key="switch_visibility"
+            android:title="Visible"
+            android:summary="This option will control your  visibility to other  users or friends to fined you while searching." />
+        <!--visibility value should be transfer to data base to be visible or invisible for other-->
+        />
+        <!--true is the default value -->
+
+       <EditTextPreference
+            key="example"
+            android:title="example"/>
+
+        <Preference
+
+            key="logout"
+            android:title="Log Out"/>
+        <!--should go to login page-->
+
+        <Preference key="DeleteAccount"
+            android:title="Delete Account"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Search">
+
+        <ListPreference
+            android:title="Search Range"
+            android:summary="Select the search range to find your friend or  new Similar People"
+            android:key="downloadType"
+            android:defaultValue="1"
+            android:entries="@array/searchRanges"
+            android:entryValues="@array/searchRanges"
+            /> <!--entryValues should change to real value to direct use -->
+
+        <CheckBoxPreference
+            android:key="visibility"
+            android:title="Visible"
+            android:summary="This option will control your  visibility to other  users or friends to fined you while searching." />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

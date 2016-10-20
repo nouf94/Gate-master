@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="string_array_experience">
+        <item>Accounting</item>
+        <item>Airlines/Aviation</item>
+        <item>Alternative Medicine</item>
+        <item>Animation</item>
+        <item>Architecture/Planning</item>
+        <item>Automation</item>
+        <item>Banking</item>
+        <item>Biotechnology</item>
+        <item>Business</item>
+        <item>Chemicals</item>
+        <item>Computer/Network Security</item>
+        <item>Computer Hardware</item>
+        <item>Computer Software</item>
+        <item>Consumer Services</item>
+        <item>Cosmetics</item>
+        <item>Defense/Space</item>
+        <item>Design</item>
+        <item>Engineering</item>
+        <item>Entertainment</item>
+        <item>Environmental Services</item>
+        <item>Executive Office</item>
+        <item>Farming</item>
+        <item>Financial Services</item>
+        <item>Fine Art</item>
+        <item>Food Production</item>
+        <item>Fund-Raising</item>
+        <item>Furniture</item>
+        <item>Government Administration</item>
+        <item>Graphic Design</item>
+        <item>Health/Fitness</item>
+        <item>Human Resources</item>
+        <item>Information Technology and Services</item>
+        <item>Insurance</item>
+        <item>International Affairs</item>
+        <item>Legal Services</item>
+        <item>Travel/Tourism</item>
+        <item>Libraries</item>
+        <item>Logistics/Supply Chains</item>
+        <item>Luxury Goods/Jewelry</item>
+        <item>Management</item>
+        <item>Manufacturing</item>
+        <item>Marketing/Advertising</item>
+        <item>Media Production</item>
+        <item>Medical Practice</item>
+        <item>Mental Health</item>
+        <item>Military</item>
+        <item>Mining/Metals</item>
+        <item>Museums/Institutions</item>
+        <item>Nanotechnology</item>
+        <item>Newspapers</item>
+        <item>Oil and Energy</item>
+        <item>Pharmaceuticals</item>
+        <item>Photography</item>
+        <item>Primary/Secondary Education</item>
+        <item>Public Safety</item>
+        <item>Publishing</item>
+        <item>Real Estate</item>
+        <item>Religious Institutions</item>
+        <item>Research</item>
+        <item>Restaurants</item>
+        <item>Retail</item>
+        <item>Security and Investigations</item>
+        <item>Sports</item>
+        <item>Telecommunications</item>
+        <item>Translation</item>
+        <item>Writing and Editing</item>
+    </string-array>
+</resources>
